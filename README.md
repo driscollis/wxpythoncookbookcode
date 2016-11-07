@@ -1,4 +1,4 @@
-# wxpythoncookbookcode
+# wxPython Cookbook Code Examples
 
 The code examples for the book: **wxPython Cookbook**
 
