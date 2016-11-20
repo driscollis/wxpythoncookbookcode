@@ -46,14 +46,13 @@ class SnapshotPrinter(wx.Frame):
         Creates an html file in the home directory of the application
         that contains the information to display the snapshot
         '''
-        print 'creating html...'
+        print('creating html...')
 
         html = '''<html>\n<body>\n<center>
         <img src=myImage.png width=516 height=314>
         </center>\n</body>\n</html>'''
-        f = file('screenshot.htm', 'w')
-        f.write(html)
-        f.close()
+        with open('screenshot.htm', 'w') as fobj:
+            fobj.write(html)
 
     def onSetup(self, event):
         self.printer.PageSetup()

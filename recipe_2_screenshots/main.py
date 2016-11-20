@@ -24,7 +24,7 @@ class MyForm(wx.Frame):
 
         Method based on a script by Andrea Gavana
         """
-        print 'Taking screenshot...'
+        print('Taking screenshot...')
         rect = self.GetRect()
 
         # adjust widths for Linux (figured out by John Torres
@@ -69,7 +69,7 @@ class MyForm(wx.Frame):
         img = bmp.ConvertToImage()
         fileName = "myImage.png"
         img.SaveFile(fileName, wx.BITMAP_TYPE_PNG)
-        print '...saving as png!'
+        print('...saving as png!')
 
     def onPrint(self, event):
         """
