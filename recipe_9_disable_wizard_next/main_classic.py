@@ -1,3 +1,5 @@
+# wxPython Classic Edition
+
 import wx
 import wx.wizard
 
