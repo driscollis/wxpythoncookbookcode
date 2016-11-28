@@ -19,6 +19,8 @@ class MyFileDropTarget(wx.FileDropTarget):
                                (len(filenames), x, y))
         for filepath in filenames:
             self.window.updateText(filepath + '\n')    
+        
+        return True
 
 
 class DnDPanel(wx.Panel):

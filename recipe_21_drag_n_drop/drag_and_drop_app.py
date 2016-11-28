@@ -18,6 +18,7 @@ class MyFileDropTarget(wx.FileDropTarget):
         When files are dropped, update the display
         """
         self.window.updateDisplay(filenames)
+        return True
 
 
 class FileInfo(object):

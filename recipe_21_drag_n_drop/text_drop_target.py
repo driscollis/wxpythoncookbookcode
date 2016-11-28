@@ -9,6 +9,7 @@ class MyTextDropTarget(wx.TextDropTarget):
 
     def OnDropText(self, x, y, text):
         self.textctrl.WriteText("(%d, %d)\n%s\n" % (x, y, text))
+        return True
 
     def OnDragOver(self, x, y, d):
         return wx.DragCopy
