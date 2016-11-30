@@ -33,4 +33,4 @@ class CustomTaskBarIcon(wx.adv.TaskBarIcon):
         Create the right-click menu
         """
         self.frame.Show()
-        self.frame.Res()
+        self.frame.Restore()
