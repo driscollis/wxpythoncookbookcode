@@ -1,0 +1,7 @@
+# http://www.wunderground.com/history/airport/KMIW/2010/9/22/WeeklyHistory.html?format=1
+CDT,Max TemperatureF,Mean TemperatureF,Min TemperatureF,Max Dew PointF,MeanDew PointF,Min DewpointF,Max Humidity, Mean Humidity, Min Humidity, Max Sea Level PressureIn, Mean Sea Level PressureIn, Min Sea Level PressureIn, Max VisibilityMiles, Mean VisibilityMiles, Min VisibilityMiles, Max Wind SpeedMPH, Mean Wind SpeedMPH, Max Gust SpeedMPH,PrecipitationIn, CloudCover, Events<br />
+2010-9-19,56,52,47,55,49,44,100,97,93,30.21,30.17,30.11,10,5,2,14,9,20,0.34,8,Rain-Thunderstorm<br />
+2010-9-20,88,72,56,71,62,55,100,73,46,30.10,29.94,29.77,10,6,0,25,12,32,T,4,Fog-Rain<br />
+2010-9-21,75,70,64,66,64,63,93,83,73,29.89,29.83,29.75,10,7,0,22,7,30,1.79,5,Fog-Rain-Thunderstorm<br />
+2010-9-22,75,70,64,68,64,63,100,93,69,30.00,29.96,29.86,10,5,1,15,4,,0.26,8,Rain<br />
+<!-- 0.481:1 -->

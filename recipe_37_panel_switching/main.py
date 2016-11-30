@@ -44,9 +44,10 @@ class MyForm(wx.Frame):
 
         menubar = wx.MenuBar()
         fileMenu = wx.Menu()
-        switch_panels_menu_item = fileMenu.Append(wx.ID_ANY,
-                                                  "Switch Panels",
-                                                  "Some text")
+        switch_panels_menu_item = fileMenu.Append(
+            wx.ID_ANY,
+            "Switch Panels",
+            "Some text")
         self.Bind(wx.EVT_MENU, self.onSwitchPanels,
                   switch_panels_menu_item)
         menubar.Append(fileMenu, '&File')
