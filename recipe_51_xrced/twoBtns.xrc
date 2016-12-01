@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<resource>
+    <object class="wxFrame" name="MainFrame">
+        <object class="wxPanel" name="MainPanel">
+            <object class="wxBoxSizer">
+                <object class="sizeritem">
+                    <object class="wxButton" name="okBtn">
+                        <label>OK</label>
+                    </object>
+                </object>
+                <object class="sizeritem">
+                    <object class="wxButton" name="cancelBtn">
+                        <label>Cancel</label>
+                    </object>
+                </object>
+                <orient>wxHORIZONTAL</orient>
+            </object>
+        </object>
+    </object>
+</resource>
