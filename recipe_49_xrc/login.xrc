@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="cp1252"?>
+<resource>
+    <object class="wxFrame" name="mainFrame">
+        <object class="wxPanel" name="panel">
+            <object class="wxBoxSizer">
+                <orient>wxVERTICAL</orient>
+                <object class="sizeritem">
+                    <object class="wxStaticText" name="handle">
+                        <label/>
+                    </object>
+                </object>
+                <object class="sizeritem">
+                    <object class="wxFlexGridSizer">
+                        <object class="sizeritem">
+                            <object class="wxStaticText" name="userLbl">
+                                <label>Username:</label>
+                            </object>
+                            <flag>wxALL</flag>
+                            <border>5</border>
+                        </object>
+                        <object class="sizeritem">
+                            <object class="wxTextCtrl" name="userTxt"/>
+                        </object>
+                        <object class="sizeritem">
+                            <object class="wxStaticText" name="passwordLbl">
+                                <label>Password:</label>
+                            </object>
+                            <flag>wxALL</flag>
+                            <border>5</border>
+                        </object>
+                        <object class="sizeritem">
+                            <object class="wxTextCtrl" name="passwordTxt">
+                                <style>wxTE_PROCESS_ENTER|wxTE_PASSWORD</style>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <object class="wxButton" name="loginBtn">
+                                <label>Login</label>
+                            </object>
+                            <flag>wxALL|wxALIGN_CENTRE</flag>
+                            <border>5</border>
+                        </object>
+                        <object class="sizeritem">
+                            <object class="wxButton" name="cancelBtn">
+                                <label>Cancel</label>
+                            </object>
+                            <flag>wxALL|wxALIGN_CENTRE</flag>
+                            <border>5</border>
+                        </object>
+                        <cols>2</cols>
+                        <rows>3</rows>
+                        <vgap>4</vgap>
+                        <hgap>2</hgap>
+                    </object>
+                    <border>5</border>
+                </object>
+            </object>
+            <style/>
+        </object>
+        <size>200,100</size>
+        <title>Login</title>
+        <centered>1</centered>
+    </object>
+</resource>
