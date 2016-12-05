@@ -73,7 +73,7 @@ class MyForm(wx.Frame):
         info = wx.AboutDialogInfo()
         info.Name = "My About Box"
         info.Version = "0.0.1 Beta"
-        info.Copyright = "(C) 2008 Python Geeks Everywhere"
+        info.Copyright = "(C) 2016 Python Geeks Everywhere"
         info.Description = wordwrap(
             "This is an example application that shows how to create "
             "different kinds of About Boxes using wxPython!",
@@ -102,15 +102,15 @@ class AboutDlg(wx.Frame):
 
             "<h2>About the About Tutorial</h2>"
 
-            "<p>This about box is for demo purposes only. It was created in June 2006"
+            "<p>This about box is for demo purposes only. It was created in June 2006 "
 
             "by Mike Driscoll.</p>"
 
             "<p><b>Software used in making this demo:</h3></p>"
 
-            '<p><b><a href="http://www.python.org">Python 2.4</a></b></p>'
+            '<p><b><a href="http://www.python.org">Python 2.7 / 3.5</a></b></p>'
 
-            '<p><b><a href="http://www.wxpython.org">wxPython 2.8</a></b></p>'
+            '<p><b><a href="http://www.wxpython.org">wxPython 3.0.2.0 / Phoenix</a></b></p>'
         )
 
 class wxHTML(wx.html.HtmlWindow):
