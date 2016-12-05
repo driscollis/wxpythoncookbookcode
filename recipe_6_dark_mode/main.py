@@ -23,10 +23,10 @@ class MyPanel(wx.Panel):
 
         index = 0
         for row in rows:
-            self.list_ctrl.InsertItem(index, row[0])
-            self.list_ctrl.SetItem(index, 1, row[1])
-            self.list_ctrl.SetItem(index, 2, row[2])
-            self.list_ctrl.SetItem(index, 3, row[3])
+            self.list_ctrl.InsertStringItem(index, row[0])
+            self.list_ctrl.SetStringItem(index, 1, row[1])
+            self.list_ctrl.SetStringItem(index, 2, row[2])
+            self.list_ctrl.SetStringItem(index, 3, row[3])
             if index % 2:
                 self.list_ctrl.SetItemBackgroundColour(index, "white")
             else:

@@ -5,3 +5,24 @@ Traceback (most recent call last):
   File "/home/mdriscoll/py/wxcook/wxpythoncookbookcode/recipe_10_catching_exceptions/exception_decorator3_classic.py", line 60, in onExcept
     1/0
 ZeroDivisionError: integer division or modulo by zero
+2016-12-04 20:28:37,165 - wxErrors - Exception
+Traceback (most recent call last):
+  File "c:\Users\mike\Dropbox\Documents\wxpython_cookbook\wxpythoncookbookcode\recipe_10_catching_exceptions\exception_decorator2.py", line 20, in __call__
+    self.fn(self, *args, **kwargs)
+  File "c:\Users\mike\Dropbox\Documents\wxpython_cookbook\wxpythoncookbookcode\recipe_10_catching_exceptions\exception_decorator2.py", line 40, in onExcept
+    1/0
+ZeroDivisionError: integer division or modulo by zero
+2016-12-04 20:28:50,894 - testLogger - Exception in onExcept:
+Traceback (most recent call last):
+  File "c:\Users\mike\Dropbox\Documents\wxpython_cookbook\wxpythoncookbookcode\recipe_10_catching_exceptions\exception_decorator3.py", line 20, in logger_func
+    return func(*args)
+  File "c:\Users\mike\Dropbox\Documents\wxpython_cookbook\wxpythoncookbookcode\recipe_10_catching_exceptions\exception_decorator3.py", line 60, in onExcept
+    1/0
+ZeroDivisionError: integer division or modulo by zero
+2016-12-04 20:29:04,861 - wxErrors - Exception
+Traceback (most recent call last):
+  File "c:\Users\mike\Dropbox\Documents\wxpython_cookbook\wxpythoncookbookcode\recipe_10_catching_exceptions\exception_decorator.py", line 22, in __call__
+    self.fn(self, evt)
+  File "c:\Users\mike\Dropbox\Documents\wxpython_cookbook\wxpythoncookbookcode\recipe_10_catching_exceptions\exception_decorator.py", line 42, in onExcept
+    1/0
+ZeroDivisionError: integer division or modulo by zero
