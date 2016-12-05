@@ -47,7 +47,7 @@ class LoginDialog(wx.Dialog):
         if user_password == stupid_password:
             print("You are now logged in!")
             self.logged_in = True
-            self.Destroy()
+            self.Close()
         else:
             print("Username or password is incorrect!")
 
@@ -72,6 +72,7 @@ class MainFrame(wx.Frame):
         dlg = LoginDialog()
         dlg.ShowModal()
         authenticated = dlg.logged_in
+        dlg.Destroy()
         if not authenticated:
             self.Close()
 

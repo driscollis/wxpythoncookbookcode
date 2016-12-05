@@ -39,14 +39,16 @@ class MyForm(wx.Frame):
 
     def onSelect(self, event):
         """"""
-        print("You selected: " + self.lb.GetStringSelection())
-        obj = self.lb.GetClientData(self.lb.GetSelection())
-        text = """
-        The object's attributes are:
-        %s  %s    %s  %s
+        selection = self.lb.GetStringSelection()
+        if selection:
+            print("You selected: " + selection)
+            obj = self.lb.GetClientData(self.lb.GetSelection())
+            text = """
+            The object's attributes are:
+            %s  %s    %s  %s
 
-        """ % (obj.id, obj.make, obj.model, obj.year)
-        print(text)
+            """ % (obj.id, obj.make, obj.model, obj.year)
+            print(text)
 
 
 if __name__ == "__main__":
