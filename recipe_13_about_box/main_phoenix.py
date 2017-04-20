@@ -49,20 +49,20 @@ class MyForm(wx.Frame):
         # Append takes an id, the text label, and a string
         # to display in the statusbar when the item is selected
         close_menu_item = fileMenu.Append(wx.NewId(),
-                                          "&amp;Close",
+                                          "&Close",
                                           "Closes the application")
         # Bind an event to the menu item
         self.Bind(wx.EVT_MENU, self.onClose, close_menu_item)
         # Add the fileMenu to the menu bar
-        menubar.Append(fileMenu, "&amp;File")
+        menubar.Append(fileMenu, "&File")
 
         # Create the help menu
         helpMenu = wx.Menu()
         about_menu_item = helpMenu.Append(wx.NewId(),
-                                          "&amp;About",
+                                          "&About",
                                           "Opens the About Box")
         self.Bind(wx.EVT_MENU, self.onAboutDlg, about_menu_item)
-        menubar.Append(helpMenu, "&amp;Help")
+        menubar.Append(helpMenu, "&Help")
 
         # Add the menu bar to the frame
         self.SetMenuBar(menubar)
