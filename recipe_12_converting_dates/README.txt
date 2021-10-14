@@ -1,1 +1,0 @@
-This recipe doesn't have a complete runnable example, but you should be able to add the code from the recipe to your own code without issue.
