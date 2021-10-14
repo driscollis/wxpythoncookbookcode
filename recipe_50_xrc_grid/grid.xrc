@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<resource class="">
-    <object class="wxFrame" name="MyFrame">
-        <object class="wxPanel" name="MyPanel">
-            <object class="wxGrid" name="MyGrid"/>
-        </object>
-        <title>XRC Grid</title>
-    </object>
-</resource>
